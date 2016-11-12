@@ -1,0 +1,62 @@
+body{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    background: #eee;
+}
+
+.title{
+    margin-left:20px
+}
+
+.btn-compose-email {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* ========================================================================
+ * side bar
+ * ======================================================================== */
+
+
+.nav-email li {
+    background-color: white;
+}
+
+.nav-email li.active .label {
+    background-color: white;
+    color: black;
+}
+.nav-email li a {
+    color: black;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+/* ========================================================================
+ * profile details
+ * ======================================================================== */
+
+.form-style-fake{
+    position:absolute;
+    top:0;
+}
+.form-style-base{
+    position:absolute;
+    top:0;
+    z-index: 999;
+    opacity: 0;}
+.imgCircle{
+    border-radius: 50%;
+}
+
+.Profile-input-file{
+    height:180px;
+    width:180px;
+    left:33%;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    opacity: 0 !important;
+}
